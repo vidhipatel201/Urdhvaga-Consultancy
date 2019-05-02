@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<title>Sign Up - Urdhvaga Consultancy</title>
+		 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon">
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	</head>
+	<body>
+	<header>
+	<div class="full-width">
+		<div class="row top-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<span style="margin-right:10px"><i class="fa fa-phone" style="color:#FFF200"> <span style="color:white">+91 8141126518</span></i></span>
+						<span><i class="fa fa-envelope mail" style="color:#FFF200"><a href="mailto:k3.jignesh@gmail.com"> k3.jignesh@gmail.com</a><i class="fa fa-send mail-fly"></i></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="mid-header">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-2 col-lg-offset-5">
+			<img src="assets/img/logo.jpg" class="logo" />
+		</div>
+		
+		</div>
+		</div>
+		</div>
+		<nav class="navbar navbar-custom navbar-inverse" data-spy="affix">
+  <div class="container">
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand hidden-lg" href="#">Urdhvaga Consultancy</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signin.html"><i class="fa fa-sign-in"></i> &nbsp; Sign In</a></li>
+		<li class="active"><a href="signup.html"><span class="glyphicon glyphicon-user"></span> &nbsp; Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+	
+	
+	
+	<div class="container top-btm-pad">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="col-lg-offset-3 col-lg-6">
+					<div class="row">
+			<div class="col-lg-12">
+				<h3 class="page-title">
+					<span class="glyphicon glyphicon-user title-icon"></span> Sign Up
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<form>
+							<div class="col-lg-12 form-group">
+								<input type="text" class="form-control" placeholder="* Full Name - Example: Jignesh Khatri">
+							</div>
+							<div class="col-lg-12 form-group">
+								<input type="number" class="form-control" placeholder="* Contact Number - Example: 8141126518">
+							</div>
+							<div class="col-lg-12 form-group">
+								<input type="email" class="form-control" placeholder="* Email Id - Example: k3.jignesh@gmail.com">
+							</div>
+							<div class="col-lg-12 form-group">
+								<label><input type="radio"> Male</label> &nbsp; <label><input type="radio"> Female</label>
+							</div>
+							<div class="col-lg-12 form-group">
+								<input type="password" class="form-control" placeholder="Password">
+							</div>
+							<div class="col-lg-12 form-group">
+								<button class="btn mybtn"><i class="fa fa-check"></i> &nbsp; Sign Up</button>
+							</div>
+						</form>
+			</div>
+		</div>
+		<hr style="border-color:#818181">
+		<div class="row">
+			<div class="col-lg-12">
+				<a href="#" class="red-link col-lg-offset-3">Don't have an account? Create one here.</a></a>
+			</div>
+		</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<img src="assets/img/logo.jpg" class="logo" />
+				</div>
+			</div>
+		</div>
+	</footer>
+		<script src="assets/js/jquery-3.1.1.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script>
+	$('.navbar').affix({
+    offset: $('.navbar').position()
+	});
+	
+	// add padding or margin when element is affixed
+$(".navbar").on("affix.bs.affix", function() {
+  return $(".home-slogan").addClass("padded");
+});
+
+// remove it when unaffixed
+$(".navbar").on("affix-top.bs.affix", function() {
+  return $(".home-slogan").removeClass("padded");
+});
+		</script>
+	</body>
+</html>

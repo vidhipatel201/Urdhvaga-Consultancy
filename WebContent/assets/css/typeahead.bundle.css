@@ -1,0 +1,54 @@
+
+/*
+.typeahead {
+	background-color: #FFFFFF;
+}
+.typeahead:focus {
+	border: 2px solid #0097CF;
+}
+.tt-query {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+*/
+.typeahead {
+	width:100%;
+}
+.twitter-typeahead{
+     width: 100%;
+}
+.tt-dropdown-menu{
+    width: 100%;
+}
+.tt-hint {
+	width:100%
+	color: #999999;
+}
+.tt-input {
+	width:100%;
+}
+.tt-menu {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 100%;
+}
+.tt-suggestion {
+	/*font-size: 22px;  /* Set suggestion dropdown font size */
+	padding: 3px 20px;
+	width:100%;
+}
+.tt-suggestion:hover {
+	cursor: pointer;
+	background-color: #0097CF;
+	color: #FFFFFF;
+	width: 100%;
+}
+.tt-input-group {
+    width: 100%;
+}
+.tt-suggestion p {
+	margin: 0;
+}
